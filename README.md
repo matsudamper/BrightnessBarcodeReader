@@ -53,10 +53,10 @@ A4サイズ横マックスになるようになっています。
 
 # ハードウェア
 Arduino NanoにフォトトランジスタとLEDと読み取り開始のためのボタンのみです。  
-<img alt="Arduino" src="img/Arduino.jpg" width=500>
+<img alt="Arduino" src="img/Arduino.jpg" width="50%">
 
 回路はこんな感じ  
-<img alt="回路" src="img/回路.jpg" width=500>
+<img alt="回路" src="img/回路.jpg" width="50%">
 
 
 # LICENSE

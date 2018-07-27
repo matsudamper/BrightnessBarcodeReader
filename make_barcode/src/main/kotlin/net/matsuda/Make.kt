@@ -16,8 +16,8 @@ fun main(args: Array<String>) = Make().main(args)
 class Make {
 
     companion object {
-        const val path = "C:\\Users\\matsudamper\\OneDrive\\University\\Information3\\Trial\\qr"
-        const val outPath = "C:\\Users\\matsudamper\\OneDrive\\University\\Information3\\Trial\\qr/out"
+        const val path = ""
+        const val outPath = ""
         const val outName = "out"
 
         const val width = 2480

@@ -31,6 +31,7 @@ Arduino Proや7セグディスプレイが使えればもっとアイディア�
 
 最初は疑問系なのにその後ろで断定していることから、最初に疑問形で書いたのは建前で最初から写しただろと思っていることがこの文章から読み取れますね。  
 中々ここまで人間の怒りを最高潮にすることはできませんよ、どの教授が書いたかは知りませんけど。  
+エンジニアとして考えうる限り最大限の侮辱。  
 
 ## 最初に終わり
 ここから提出したレポートの建前などを除いてどう実現したのかを書いていきます。  
@@ -38,4 +39,41 @@ Arduino Proや7セグディスプレイが使えればもっとアイディア�
 --------------------
 
 # 前提条件
-書き途中です。  
+[make_barcode](make_barcode)でバーコードを生成しました。  
+A4サイズ横マックスになるようになっています。  
+縦は紙がもったいないからいっぱい入るように。  
+幅17cmの巨大一次元コードです。これ以上小さいと読み取れなかった。  
+
+# ハードウェア
+Arduino NanoにフォトトランジスタとLEDと読み取り開始のためのボタンのみです。  
+![Arduino](img/Arduino.jpg)  
+
+回路はこんな感じ
+![回路](img/回路.jpg)  
+
+
+# LICENSE
+ - barcode4j
+    Apache License  
+    Version 2.0, January 2004  
+    http://www.apache.org/licenses/  
+
+ - avalon-framework-api 
+    Apache License  
+    Version 2.0, January 2004  
+    http://www.apache.org/licenses/  
+
+ - processing
+    GNU GENERAL PUBLIC LICENSE  
+    Version 2, June 1991  
+    https://github.com/processing/processing/blob/master/license.txt  
+
+ - jssc
+    GNU LESSER GENERAL PUBLIC LICENSE  
+    Version 3, 29 June 2007  
+    https://github.com/arduino/Arduino/blob/master/arduino-core/lib/jssc.LICENSE.LGPL.txt  
+
+ - kotlin-stdlib-jdk8  
+    Apache License  
+    Version 2.0, January 2004  
+    http://www.apache.org/licenses/  

@@ -1,0 +1,13 @@
+// 既定の設定を上書きするには、このファイル内に設定を挿入します
+{
+    "C_Cpp.intelliSenseEngineFallback": "Disabled",
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
+    "files.associations": {
+        "*.txt": "bat",
+        "*.ino": "cpp",
+        "functional": "cpp",
+        "ratio": "cpp",
+        "system_error": "cpp",
+        "type_traits": "cpp"
+    },
+}

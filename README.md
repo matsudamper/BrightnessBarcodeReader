@@ -118,7 +118,7 @@ JANコードは一つの数字を4つのバー、長さ7で表現します。こ
 これによりJANコードをLEDとフォトトランジスタのみで読み取ることができます。  
 
 # 動画
-<a href="https://www.youtube.com/embed/SpNbRiaHo1k" target="_blank">https://www.youtube.com/embed/SpNbRiaHo1k</a>
+<a href="https://www.youtube.com/watch?v=SpNbRiaHo1k" target="_blank">https://www.youtube.com/watch?v=SpNbRiaHo1k</a>
 
 # LICENSE
  - barcode4j
